@@ -1,0 +1,172 @@
+/*Styles to handle full_commenting container*/
+.full-commenting-container{
+    width : 50%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Styles for comment form*/
+.comment_form{
+    width : 100%;
+    display : inline-flex;
+}
+/*Styles for div that contains textarea*/
+.comment-input-container{
+    width : 80%;
+    height : 5rem;
+    text-align : left;
+}
+/*Styles for div that contains button*/
+.comment-btn-container{
+    width : 20%;
+    height : 5rem;
+    text-align : center;
+}
+/*Styles that contains textarea*/
+.comment-input{
+    width : 97%;
+    height : 90%;
+    text-align : left;
+}
+/*Styles that contains button*/
+.comment-btn{
+    width : 100%;
+    height : 98%;
+    text-transform : uppercase;
+    font-weight : bolder;
+    border : none;
+    background-color : blue;
+    border : 2px solid gold;
+    text-align : center;
+    color : white;
+    cursor : pointer;
+    margin : 0% auto;
+}
+/*Styles for comment button hover and active effect*/
+.comment-btn:hover, .comment-btn:active{
+    background-color : transparent;
+    color : black;
+}
+/*Style to handle every comment*/
+.each_comment-container{
+    margin : 50px 2px;
+    padding-left : 3px;
+    padding-top : 3px;
+    box-shadow: 5px 5px rgb(185, 182, 182);
+}
+/*Style for commenter name*/
+.commenter-name{
+    font-size : 1rem;
+    width : 50%;
+    font-weight: bolder;
+    text-shadow: 1px 1px gray;
+}
+/*Style for comment*/
+.comment-body{
+    font-size : 1.2rem;
+}
+/*Style or Comment details container*/
+.comment-details{
+    width : 100%;
+    display : inline-flex;
+}
+/*Style for comment date*/
+.comment-date{
+    text-align : center;
+    width : 50%;
+    font-size: 0.7rem;
+}
+/*Style for comment counter*/
+.comment_indicator{
+    margin : 0%;
+    text-align : center;
+    font-weight: bolder;
+}
+/*Style to handle the comment interval*/
+.comment-time-ago{
+    text-align : center;
+    width : 50%;
+    font-size: 0.7rem;
+}
+/*Style to display error*/
+.error-handler{
+    border : red solid 2px;
+    margin-top : 0%;
+    border-top : none;
+    text-align : center;
+    font-weight : bolder;
+}
+/*Style to display success message*/
+.success-handler{
+    border : lightgreen solid 2px;
+    margin-top : 0%;
+    border-top : none;
+    text-align : center;
+    font-weight : bolder;
+}
+/*Style for div containing next and previous button*/
+.next_previous_container{
+    display : inline-flex;
+    width : 100%;
+}
+/*Style for previous and next button*/
+.previous_container, .next_container{
+    width : 50%;
+    height : 3rem;
+}
+/*Style to use for error message while trying to fetch comments*/
+.big_error_handler{
+    text-align : center;
+    padding-top : 30%;
+    font-weight : bolder;
+    font-size : 1rem;
+}
+/*Animation style to display while sending a comment*/
+.loading{
+    height: 2rem;
+    width: 2rem;
+    border-radius:50%;
+    border: solid gold;
+    border-right:4px solid transparent;
+    animation-name:rotate;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    margin-left : 30%;
+    }
+    /*Animation style to display while fetching comments*/
+.loading-comment{
+    height: 4rem;
+    width: 4rem;
+    border-radius:50%;
+    border: solid gold;
+    border-right:4px solid transparent;
+    animation-name:rotate;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    margin-left : 40%;
+    margin-top : 10%;
+    }
+
+    
+/*Keyframes styles for all animations*/
+@keyframes rotate{
+    0%{
+        transform:rotate(0);
+        
+    }
+    50%{
+        transform:rotate(180deg);
+    
+    }
+    100%{
+        transform:rotate(360deg);
+    
+    }
+}
+/*Media query to enable responsiveness*/   
+@media screen and (max-width : 500px){
+    .full-commenting-container{
+        width : 100%;
+    }
+    .loading{
+        margin-left : 25%;
+    }
+}
