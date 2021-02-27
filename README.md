@@ -32,3 +32,5 @@ This snippet is used to add comments to a page. It uses an asynchronous pattern 
     Facebook : www.facebook.com/femi.fatokun.165
     Github : www.github.com/FemiFatokun03
 **/
+
+Demo : www.comment.curiousnews.com.ng/index.php
