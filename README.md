@@ -19,7 +19,7 @@ This snippet is used to add comments to a page. It uses an asynchronous pattern 
 
 4. Ensure that every file is routed in any pattern of your choice.
 
-5. Include the 'commenter.php' file in any part of the page that you want to use it.
+5. Include the "commenter.php" file in any part of the page that you want to use it.
 
 /**
     If you experience any kind of problem while trying to install the code, please contact me and i promise to help you fix it immediately.
