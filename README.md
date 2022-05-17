@@ -1,5 +1,5 @@
 # Page-Comment-Adder
-This snippet is used to add comments to a page. It uses an asynchronous pattern and auto-update.
+This snippet is used to add comments to a page. It uses an asynchronous pattern and auto-updates.
 
 /**This file contains all the procedure for using this code**/
 
